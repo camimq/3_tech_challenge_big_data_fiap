@@ -10,7 +10,7 @@ page03_header_image = Image.open('imgs\header-analise_exploratoria_de_dados.png'
 st.image(page03_header_image, caption='Imagem criada com o Copilot')
 
 # cria tabs de conteúdo da página
-tab1, tab2, tab3, tab4 = st.tabs(['Contexto', 'População', 'Análise Clínica', 'Análise Econômica'])
+tab1, tab2, tab3, tab4 = st.tabs(['Contexto', 'Visão Geral', 'Análise Clínica', 'Análise Econômica'])
 
 # tab1 - Contexto
 with tab1:
@@ -31,13 +31,25 @@ with tab1:
                     Através dos sintamos relatados, conseguimos identificar padrões para os casos mais graves? Será que existia um sintoma ou um grupo de sintomas que poderiam indicar maior ou menor probabilidade de confirmação de um caso de COVID? E o acesso ao sistema de saúde; será que a facilidade ou não de acesso aos equipamentos / serviços de saúde, influenciaram no desenrolar individual de um indivíduo com "sintomas clássicos" de COVID?
                 
                     ### Análise Econômica
-                    Do ponto de vista prático, é fácil constatarmos que a COVID teve papel fundamental no desempenho da economia global. Diversos setores da economia se fundamento diretamente no contato direto com outras pessoas. Sabemos que uma das medidas de prevenção, foi o distanciamento que, fatalmente, quase que paralizou a economia em todo o país e no mundo mas, será que existem grupos mais ou menos afetados? Como a mudança do comportamento da população impactou a economia neste período?
+                    Do ponto de vista prático, é fácil constatarmos que a COVID teve papel fundamental no desempenho da economia global. Diversos setores da economia se fundamento diretamente no contato direto com outras pessoas. Sabemos que uma das medidas de prevenção, foi o distanciamento que, fatalmente, quase que paralizou a economia em todo o país e no mundo mas, será que existem grupos mais ou menos afetados? Como a mudança do comportamento da população impactou a economia neste período.
                 
                     ---
                 ''')
 
-# tab2 - População
-    st.title('Análise do Perfil da População')
+# tab2 - Visão Geral
+    st.title('Visão Geral')
     st.markdown('''
-                    
+                    Para entendermos o efeito de uma crise como a da COVID, é importante contextualizarmos a população contida nesta análise. Da base disponibilizada, o quanto temos de representatividade que pode - de fato - nos ajudar a trazer uma leitura da sociedade?
+                
+                    ## Visão Geral
+                    De forma geral, é sábido que o Brasil é um país de dimensões continentais e com uma das maiores diversidades do mundo em sua formação. Por isso, tentar traçar um perfil dos entrevistados, à partir dos dados disponibilizados, é necessário. De acordo com o IBGE, a maior parte dos casos de COVID investigados, estiveram registrados no Nordeste do país.
+
                 ''')
+    st.image('imgs\distribuicaoCasosRegiao.png', caption='Distribuição de Casos Investigados Por Região', use_column_width=True, output_format='auto')
+    st.markdown('''
+                    Importante registrar que [de acordo com o Censo 2022](https://www.correiobraziliense.com.br/brasil/2024/02/6796858-censo-2022-veja-quais-sao-as-regioes-mais-povoadas-do-brasil.html), a região mais povoada do país é o Sudeste. Contudo, ao olharmos para os gráficos que mostram a concentração de casos por região, investigados no período da pesquisa, [é possível notar que no Nordeste, onde se concentram o maior número de pessoas que vivem em condições precárias,](https://www.cnnbrasil.com.br/economia/pobreza-cai-para-316-da-populacao-em-2022-diz-ibge/#:~:text=Perfil%20da%20pobreza%20no%20pa%C3%ADs%201%20Crian%C3%A7as%20Em,subiu%206%2C9%25%20em%202022%2C%20para%20R%24%201.586.%20) temos uma concentração ligeiramente maior que o Sudeste.
+
+                    Dentro da base utilizada, temos como notar que a relação entre pessoas testadas e não testadas indica que a acessibilidade aos testes ou a conscientização sobre a necessidade de fazê-lo, no momento em que a pesquisa foi feita, não eram temas bem desenvolvidos / funcionais.
+                ''')
+    st.image('imgs\swab.png', use_column_width=True, output_format='auto')
+   

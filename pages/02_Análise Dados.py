@@ -10,7 +10,7 @@ page03_header_image = Image.open('imgs\header-analise_exploratoria_de_dados.png'
 st.image(page03_header_image, caption='Imagem criada com o Copilot')
 
 # cria tabs de conteúdo da página
-tab1, tab2, tab3, tab4 = st.tabs(['Contexto', 'Visão Geral', 'Análise Clínica', 'Análise Econômica'])
+tab1, tab2, tab3, tab4, tab5 = st.tabs(['Contexto', 'Visão Geral', 'Análise Clínica', 'Análise Econômica', 'Clusterização'])
 
 # tab1 - Contexto
 with tab1:
@@ -37,6 +37,7 @@ with tab1:
                 ''')
 
 # tab2 - Visão Geral
+with tab2:
     st.title('Visão Geral')
     st.markdown('''
                     Para entendermos o efeito de uma crise como a da COVID, é importante contextualizarmos a população contida nesta análise. Da base disponibilizada, o quanto temos de representatividade que pode - de fato - nos ajudar a trazer uma leitura da sociedade?
@@ -52,4 +53,16 @@ with tab1:
                     Dentro da base utilizada, temos como notar que a relação entre pessoas testadas e não testadas indica que a acessibilidade aos testes ou a conscientização sobre a necessidade de fazê-lo, no momento em que a pesquisa foi feita, não eram temas bem desenvolvidos / funcionais.
                 ''')
     st.image('imgs\swab.png', use_column_width=True, output_format='auto')
+    st.markdown('''
+                    Enquanto acompanhávamos o desenrolar da crise da COVID, ficou claro que os impactos foram diferentes nas diversas camadas da população.
+                
+                ## 1. Análise de Gênero
+
+                ''')
    
+# tab 3 - Análise Clínica
+with tab3:
+    st.title('Análise Clínica')
+    st.markdown('''
+
+                ''')

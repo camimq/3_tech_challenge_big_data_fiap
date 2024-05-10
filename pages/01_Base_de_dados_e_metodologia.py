@@ -98,14 +98,17 @@ with tab2:
                   | 17 | B009B | Qual o resultado? (SWAB) |
                   | 18 | B011 | Na semana passada, devido à pandemia do Coronavírus, em que medida o(a) Sr(a) restringiu o contato com as pessoas? |
                   | 19 | C013 | Na semana passada, o(a) Sr(a) estava em trabalho remoto (home office ou teletrabalho)? |
-                  | 20 | D0051 | Auxílios emergenciais relacionados ao coronavirus |  
+                  | 20 | D0051 | Auxílios emergenciais relacionados ao coronavirus |
+                
+                ---
                 ''')
-
-    st.markdown('---')
 
 # tab 3 - Objetivos
 with tab3:
     st.markdown('''
+        
+        # Objetivo da análise
+                
         Ao utilizar a base do [PNAD-COVID-19 do IBGE](https://covid19.ibge.gov.br/pnad-covid/), será criada uma nova base para análise, considerando as seguintes características:
 
         - Utilização de no máximo 20 questionamentos realizados na pesquisa;

@@ -6,8 +6,8 @@ st.set_page_config(page_title="Home", page_icon="https://th.bing.com/th?id=ODLS.
 
 
 # seta header image da página
-home_header_image = Image.open('imgs\header-home.jpg')
-st.image(home_header_image, caption='Image credit: GR Stocks at Unsplash')
+home_header_image = Image.open('imgs\header_principal.jpg')
+st.image(home_header_image, caption='Image credit: Fusion Medical Animation at Unsplash')
 
 # texto da homepage
 st.markdown('''

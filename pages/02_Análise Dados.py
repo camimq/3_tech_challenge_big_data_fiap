@@ -3,10 +3,10 @@ import pandas as pd
 from PIL import Image
 
 # configura características da página
-st.set_page_config(page_title='Análise Exploratória de Dados', page_icon='https://th.bing.com/th?id=ODLS.b7e13985-946a-47c6-8d8e-a4d10d1e8063&w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2')
+st.set_page_config(page_title='Análise de Dados', page_icon='https://th.bing.com/th?id=ODLS.b7e13985-946a-47c6-8d8e-a4d10d1e8063&w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2', initial_sidebar_state='expanded')
 
 # seta header image da página
-page03_header_image = Image.open('imgs\header-analise_exploratoria_de_dados.png')
+page03_header_image = Image.open('imgs\header-analise_de_dados.png')
 st.image(page03_header_image, caption='Imagem criada com o Copilot')
 
 # cria tabs de conteúdo da página
@@ -42,9 +42,7 @@ with tab2:
     st.markdown('''
                     Para entendermos o efeito de uma crise como a da COVID, é importante contextualizarmos a população contida nesta análise. Da base disponibilizada, o quanto temos de representatividade que pode - de fato - nos ajudar a trazer uma leitura da sociedade?
                 
-                    ## Visão Geral
                     De forma geral, é sábido que o Brasil é um país de dimensões continentais e com uma das maiores diversidades do mundo em sua formação. Por isso, tentar traçar um perfil dos entrevistados, à partir dos dados disponibilizados, é necessário. De acordo com o IBGE, a maior parte dos casos de COVID investigados, estiveram registrados no Nordeste do país.
-
                 ''')
     st.image('imgs\distribuicaoCasosRegiao.png', caption='Distribuição de Casos Investigados Por Região', use_column_width=True, output_format='auto')
     st.markdown('''

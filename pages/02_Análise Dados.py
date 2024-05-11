@@ -105,3 +105,4 @@ with tab4:
                     É nítida a sugestão de que pacientes com acesso ao plano de saúde e a possibilidade do trabalho remoto, indicam poder econômico superior àqueles que não o tem. Essa inferência é possível, pelo simples fato de que se você tem acesso a essas duas possibilidades, a quantidade de interação despenca. Não anula o risco de o entrevistado ter contraído a doença mas, certamente, diminui o risco de desenvolver a versão mais grave da doença.
                 ''')
 #### INSERIR UM GRÁFICO DE RELAÇÃO ENTRE ACESSO A PLANO DE SAÚDE E HOME OFFICE COM INTERNAÇÃO; A IDEIA É MOSTRAR QUE QUANDO ALGUÉM TEM ACESSO A ESSES SERVIÇOS, OS RISCOS DE INTERNAÇÃO DIMINUEM ####
+    st.markdown('---')

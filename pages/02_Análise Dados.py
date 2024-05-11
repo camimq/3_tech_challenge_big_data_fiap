@@ -90,3 +90,18 @@ with tab3:
 
                     ---
                 ''')
+    
+# tab 4 - Econômico
+with tab4:
+    st.title('Cenário Econômico')
+    st.markdown('''
+                    Os [impactos da COVID-19 na economia, são sentidas até hoje](https://g1.globo.com/economia/noticia/2020/12/12/como-a-pandemia-baguncou-a-economia-brasileira-em-2020.ghtml). O Brasil vinha de alguns anos em que a economia sofria diversos solavancos positivos e negativos. Sem nenhuma estabilidade, juros alto, desemprego e inflação. Um cenário quase corriqueiro, considerando a nossa realidade. O anúncio da pandemia, trouxe impacto imediato na economia. Setores de serviços, indústria e comércio sentiram quase que de imediato e, dentro da realidade e contexto de cada um, viveram desafios.
+                
+                    Para o profissionais, essa movimentação se manifestou como desemprego, corte salarial, mudança do regime de contrato, afastamentos e muita insegurança. Se de um lado, tínhamos a indústria da tecnologia que contratou e cresceu em números vertiginosos; do outro lado, assistimos setores mais "tradicionais" perecerem e lutarem muito para se manter. Nunca se sentiu tanto o contexto global no nosso dia - a - dia que, além das expecativas, vieram recheados de mudanças. **Entender a relação entre saúde e economia, é crucial para que seja possível criar políticas públicas e estratégias para o enfrentamento de futuras crises.
+                
+                    ## HomeOffice e Acesso a saúde
+                    Trabalhar remotamente e ter acesso ao sistema de saúde particular, seja pagando ou por um plano de saúde, infelizmente, é uma régua que separa poucos de muitos. E, durante a pandemia, essa diferença foi exacerbada.
+                
+                    É nítida a sugestão de que pacientes com acesso ao plano de saúde e a possibilidade do trabalho remoto, indicam poder econômico superior àqueles que não o tem. Essa inferência é possível, pelo simples fato de que se você tem acesso a essas duas possibilidades, a quantidade de interação despenca. Não anula o risco de o entrevistado ter contraído a doença mas, certamente, diminui o risco de desenvolver a versão mais grave da doença.
+                ''')
+#### INSERIR UM GRÁFICO DE RELAÇÃO ENTRE ACESSO A PLANO DE SAÚDE E HOME OFFICE COM INTERNAÇÃO; A IDEIA É MOSTRAR QUE QUANDO ALGUÉM TEM ACESSO A ESSES SERVIÇOS, OS RISCOS DE INTERNAÇÃO DIMINUEM ####

@@ -55,9 +55,29 @@ with tab2:
                     Enquanto acompanhávamos o desenrolar da crise da COVID, ficou claro que os impactos foram diferentes nas diversas camadas da população.
                 
                 ## 1. Análise de Gênero
-
+                De acordo com os dados do PNAD, **52,12%** dos casos investigados foram em pacientes mulheres e, **47,88** em pacientes homens. Esta informação vai contra o senso comum que diz que os homens é que são os responsáveis por "sair de casa para buscar o sustento" ou, confirma a informação de diversos estudos que afirmam que o [número de famílias chefiadas por mulheres, só cresce no país](https://g1.globo.com/sc/santa-catarina/noticia/2022/01/23/maes-empreendedoras-pesquisa-revela-que-487percent-das-familias-sao-chefiadas-por-mulheres.ghtml). De toda forma, nos faz também refletir sobre quais seriam as diferenças de comportamento entre os dois gêneros que expõe mais um do que o outro ao risco.
                 ''')
-   
+#### INSERIR UM GRÁFICO Q MOSTRE A INCIDÊNCIA DE POSITIVOS DENTRO DOS 52% DE MULHERES E A INCIDÊNCIA DE POSITIVO DENTRO DOS 47% DE HOMENS (pode ser substituido pelo debaixo) ##
+    st.image('imgs\casosPorgenero.png', use_column_width=True, output_format='auto')
+    st.markdown('''
+                ## 2. Análise por tipo de domicílio
+                É interessante notar que a densidade demográfica pode ter um fator determinante na incidência do vírus. A ideia de que moradias no interior (ou regiões rurais) são mais afastadas, assim como a interação com outras pessoas também é menor, pode confirmar a principal medida de prevenção da COVID 19, **o distanciamento**.
+                ''')
+#### INSERIR UM GRÁFICO Q MOSTRE A INCIDÊNCIA DE POSITIVOS DENTRO DOS 77% URBANA E A INCIDÊNCIA DE POSITIVO DENTRO DOS 22% DE RURAL (pode ser substituido pelo debaixo) ##
+    st.image('imgs\domicilio.png', use_column_width=True, output_format='auto')
+    st.markdown('''
+                ### 3. Incidência de casos positivos por Estado
+                Olhar para a incidência de casos por região, é útil para que possamos direcionar os esforços para as regiões que de fato necessitam. Além de recursos e planejamento estratégico de medidas, ajuda a criar um mapa e colocar lupa sobre a realidade econômica e social, que vão ajudar a entender que tipo de intervenção é necessária.
+                ''')
+    st.image('imgs\porregiao.png', use_column_width=True, output_format='auto')
+    st.markdown('''
+                A análise sociodemográfica tem sido fundamental para compreender o impacto da COVID-19 em diferentes grupos populacionais. Essa abordagem nos permite identificar padrões e tendências que são cruciais para direcionar esforços, alocar recursos e desenvolver campanhas de conscientização eficazes. A pandemia destacou a necessidade de compreender as nuances da nossa sociedade, e essas informações nos tornam mais preparados para enfrentar desafios futuros e proteger os mais vulneráveis.
+                ''')
+
+
+
+
+
 # tab 3 - Análise Clínica
 with tab3:
     st.title('Análise Clínica')
